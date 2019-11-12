@@ -1,0 +1,14 @@
+#hover-content {
+ display:none;
+}
+#parent:hover #hover-content {
+ display:block;
+ animation: fadein 1s;
+ -moz-animation: fadein 1s; /* Firefox */
+ -webkit-animation: fadein 1s; /* Safari and Chrome */
+ -o-animation: fadein 1s; /* Opera */
+}
+
+.h5{
+  font-weight: bold;
+}
